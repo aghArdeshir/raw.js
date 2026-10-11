@@ -1,4 +1,4 @@
-# RawFrontend.js — The Revolutionary Zero-Abstraction Frontend Framework For Enterprise™
+# raw.js — The Revolutionary Zero-Abstraction Frontend Framework For Enterprise™
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bundle%20Size-0.00%20KB-brightgreen?style=for-the-badge" alt="0KB Bundle Size" />
@@ -11,9 +11,9 @@
 
 ## 🚀 Overview
 
-**RawFrontend.js** is the ultra-fast, zero-dependency, zero-bundle web frontend framework designed to replace complex enterprise web stacks like **React, Vue, Nuxt, Next.js, Angular, Svelte, Vite, Turbopack, and Webpack**.
+**raw.js** is the ultra-fast, zero-dependency, zero-bundle web frontend framework designed to replace complex enterprise web stacks like **React, Vue, Nuxt, Next.js, Angular, Svelte, Vite, Turbopack, and Webpack**.
 
-Instead of downloading **500MB of `node_modules`** and configuring complex compilation pipelines, **RawFrontend.js** provides a 100% native architecture powered entirely by the standard web browser runtime.
+Instead of downloading **500MB of `node_modules`** and configuring complex compilation pipelines, **raw.js** provides a 100% native architecture powered entirely by the standard web browser runtime.
 
 ---
 
@@ -31,32 +31,34 @@ Instead of downloading **500MB of `node_modules`** and configuring complex compi
 ## ⚡ Production Deployment Rule
 
 > **Enterprise Production Rule:**  
-> When your application is ready for production, simply remove all build tools, delete `node_modules`, purge complex bundlers, remove any framework script tags referencing third-party libraries, and run your standard HTML, CSS, and JavaScript directly in any modern web browser.
+> In production, remove the development script line from your HTML. Your app is production ready.
 
 ---
 
 ## 💻 Quick Start
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/aghArdeshir/raw.js.git
-cd raw.js
+### Development
+
+Add this script to your HTML while developing:
+
+```html
+<script type="module" src="https://aghardeshir.github.io/raw.js/raw.js"></script>
 ```
 
-### 2. Open `index.html`
-Open `index.html` directly in your web browser. That's literally it! No `npm install`, no `vite`, no compilation pass required.
+### Production
+
+Remove that script line before deployment. Your app is production ready without it.
 
 ---
 
 ## 📊 Enterprise Performance Comparison
 
-| Metric | React 19 / Next.js | Vue 3 / Nuxt 3 | RawFrontend.js |
+| Metric | React 19 / Next.js | Vue 3 / Nuxt 3 | raw.js |
 | :--- | :--- | :--- | :--- |
 | **Framework Footprint** | ~450 KB | ~120 KB | **0.00 KB** |
 | **Build Pipeline Required** | Yes (Webpack/Turbopack) | Yes (Vite/Rollup) | **None (Native JS)** |
 | **`node_modules` Disk Usage** | ~1.2 GB | ~650 MB | **0 Bytes** |
 | **`npm audit` Vulnerabilities**| 30+ Vulnerabilities | 10+ Vulnerabilities | **0 Vulnerabilities** |
-| **Developer Fatigue** | Severe | High | **Zero (Enlightened)** |
 
 ---
 
@@ -67,6 +69,6 @@ Open `index.html` directly in your web browser. That's literally it! No `npm ins
 
 ---
 
-## 📜 Legal & Parody Disclaimer
+## 🎈 Just for Fun
 
-RawFrontend.js is an educational satire project mocking the excessive complexity of modern web frontend development. It highlights the power and performance of standard, unabstracted Web APIs.
+raw.js is just a joke project I made for fun.
